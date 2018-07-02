@@ -1,0 +1,19 @@
+{
+  "name": "crawler-spider",
+  "version": "1.0.0",
+  "description": "Crawling spider for get Pantip data",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Narong Kanthanu",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "cli-table": "^0.3.1",
+    "csv-writer": "^1.0.0",
+    "prettyjson": "^1.2.1",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2"
+  }
+}
